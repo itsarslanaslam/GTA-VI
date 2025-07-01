@@ -10,4 +10,15 @@ body {
   width: 100%;
   height: 100%;
   font-family: "pricedown";
+
+  /* Enable scrolling */
+  overflow: auto;
+
+  /* Hide scrollbar – Chrome, Safari */
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE & Edge */
+}
+
+body::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
 }
